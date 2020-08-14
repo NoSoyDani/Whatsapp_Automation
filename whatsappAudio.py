@@ -7,7 +7,7 @@ import time
 import sys
 
 
-target="'Juanma'"
+target="'TARGET_NAME'"
 options = webdriver.ChromeOptions();
 options.add_argument('--user-data-dir=./User_Data')
 driver = webdriver.Chrome(chrome_options=options)
